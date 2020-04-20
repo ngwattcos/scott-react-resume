@@ -84,14 +84,9 @@ const Resume = (props: any) => (
 );
 
 export const MyDocument = () => (
-  <Document
-    author="Luke Skywalker"
-    keywords="awesome, resume, start wars"
-    subject="The resume of Luke Skywalker"
-    title="Resume"
-  >
-    <Resume size="A4" />
+  <Document>
+    {/* <Resume size="A4" /> */}
     <Resume orientation="landscape" size="A4" />
-    <Resume size={[380, 1250]} />
+    {/* <Resume size={[380, 1250]} /> */}
   </Document>
 );
